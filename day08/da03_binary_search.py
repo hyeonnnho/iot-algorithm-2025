@@ -23,7 +23,7 @@ def binSearch(ary, fData):
 ## 메인 코드 부분 ##
 print('# 오늘 판매된 전체 물건(중복O, 정렬X) -->', sellAry)
 sellAry.sort()
-print('# 오늘 판매된 전체 물건(중목O, 정렬O) -->', sellAry)
+print('# 오늘 판매된 전체 물건(중복O, 정렬O) -->', sellAry)
 sellProduct = list(set(sellAry))
 print('# 오늘 판매된 물품 종류(중복X) -->', sellProduct)
 
